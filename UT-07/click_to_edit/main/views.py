@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .models import get_user, update_user
 
 # Simulación de "base de datos"
-CURRENT_NAME = "Juan Pérez"
+CURRENT_NAME = "Andrés Baños"
 
 def index(request):
     user = get_user()
