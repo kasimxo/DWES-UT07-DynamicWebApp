@@ -23,5 +23,6 @@ def save_name(request):
         request.POST.get("firstName"),
         request.POST.get("lastName"),
         request.POST.get("email"),
+        request.POST.get("tlf"),
     )
     return render(request, "partials/name_display.html", {"user": user})
